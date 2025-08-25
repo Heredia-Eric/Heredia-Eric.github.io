@@ -7,6 +7,10 @@
    - Negro (para fondos principales): #212529 (o un negro más puro si se desea)
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* --- Globales y Reinicios --- */
 body {
   font-family: "Montserrat", sans-serif;
@@ -316,4 +320,12 @@ h1, h2, h5 {
 
 p, strong, .text-muted {
     color: #343A40; /* Párrafos y texto general en gris oscuro */
+}
+
+#titulo-sobre-mi,
+#titulo-proyectos,
+#titulo-habilidades,
+#titulo-formacion,
+#titulo-contacto {
+  scroll-margin-top: 200px;
 }
